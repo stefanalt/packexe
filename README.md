@@ -17,7 +17,7 @@ So then you need to update your target system with new libraries? No, just use p
 
     $ packexe.pl mybin_pack mybin
 
-Copy the mybin_pack directory to the target system and run it:
+Copy the `mybin_pack` directory to the target system and run it:
 
     $ ./mybin_pack/mybin
 
