@@ -13,9 +13,7 @@ And then you found something like this:
     mybin: /lib/libc.so.6: version `GLIBC_2.17' not found (required by mybin)
     ...
 
-So then you need to update your target system with new libraries?
-
-No, just use packexe:
+So then you need to update your target system with new libraries? No, just use packexe:
 
     $ packexe.pl mybin_pack mybin
 
