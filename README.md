@@ -1,4 +1,4 @@
-# packexe
+# packexe.pl
 Pack shared libraries and linker along with a Linux executable
 
 Did you ever had a Linux executable on one system and need to run
@@ -23,5 +23,20 @@ Copy the mybin_pack directory to the target system and run it:
 
 If it is for longer time, create a link somewhere in the search PATH
 
-    $ ln -s /yourdir/mybin_pack_mybin /usr/bin/mybin
+    $ ln -s /yourdir/mybin_pack/mybin /usr/bin/mybin
     $ mybin
+
+# packexe.pl Documentation
+
+```
+usage: packexe.pl destdir exefile1 [exefile2]
+Get libraries and linker needed for <exefiles> and
+store everyting into <destdir>.
+
+The executables are renamed to <destdir/exefile_f>, and
+a launcher script <destdir/exefile> is created.
+
+EXAMPLE
+packexe.pl /opt/bnxtnvm bnxtnvm
+packexe.pl /opt/tools ls cp cat
+``` 
