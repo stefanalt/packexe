@@ -1,5 +1,5 @@
 # packexe
-Packexe.pl packd a shared linux executable, together with it's libraries and the corresponding linker.
+Packexe.pl packs a shared linux executable, together with it's libraries and the corresponding linker.
 
 Have you ever had a Linux executable on one system, and want to run
 it on another system (with same architecture)? 
