@@ -1,5 +1,5 @@
 # packexe
-Pack a shared linux executable, together eith it's libraries and corresponding linker.
+Pack a shared linux executable, together with it's libraries and corresponding linker.
 
 Have you ever had a Linux executable on one system, and want to run
 it on another system (with same architecture)? 
